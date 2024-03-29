@@ -184,7 +184,7 @@ blockquote span {
 	-ms-transition-delay: 0.75s;
 	-o-transition-delay: 0.75s;
 	transition-delay: 0.75s;
-	background-image: linear-gradient(to top, var(--secondary), var(--background)), url("../images/overlay.png");
+	background-image: linear-gradient(to top, var(--secondary), var(--background)), url("../assets/images/overlay.png");
 	background-position: center, center;
 	background-size: auto, 256px 256px;
 	background-repeat: no-repeat, repeat;
@@ -200,7 +200,7 @@ blockquote span {
 	-o-transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 	transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 	transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
-	background-image: url("../images/bg.jpg");
+	background-image: url("../assets/images/bg.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
