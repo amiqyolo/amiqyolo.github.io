@@ -1,2 +1,2 @@
-# amiqyolo.github.io
+# Portfolio
 The Portfolio Website created using HTML, CSS, Javascript
