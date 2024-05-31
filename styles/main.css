@@ -123,14 +123,14 @@ blockquote span {
 }
 
 /* Image Main */
-.image-main {
+.image {
 	border-radius: 4px;
 	border: 0;
 	display: inline-block;
 	position: relative;
 }
 
-.image-main::before {
+.image::before {
 	content: '';
 	display: block;
 	position: absolute;
@@ -140,11 +140,19 @@ blockquote span {
 	height: 100%;
 	pointer-events: none;
 	background: var(--transparent);
+	opacity: 0.5;
 	border-radius: 4px;
 }
 
-.image-main img {
+.image.main {
+	display: block;
+	margin: 1.2rem 0;
 	width: 100%;
+}
+
+.image.main img {
+	width: 100%;
+	height: auto;
 }
 
 /* Background */
@@ -777,6 +785,14 @@ ul.social-icons li a .label {
 	footer .love {
 		width: 1.2em;
 	}
+
+	.image.main {
+		margin: 1.6rem 0;
+	}
+
+	.image.main img {
+		height: 13em;
+	}
 }
 
 /* Large tablets & laptops */
@@ -823,6 +839,14 @@ ul.social-icons li a .label {
 
 	footer .love {
 		width: 1.2em;
+	}
+
+	.image.main {
+		margin: 1.9rem 0;
+	}
+
+	.image.main img {
+		height: 14em;
 	}
 }
 
@@ -871,4 +895,12 @@ ul.social-icons li a .label {
     .a-code {
         font-size: 1em;
     }
+
+	.image.main {
+		margin: 2rem 0;
+	}
+
+	.image.main img {
+		height: 16em;
+	}
 }
